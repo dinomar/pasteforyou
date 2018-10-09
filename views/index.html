@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Paste for you</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+    
+<body>
+
+    <!---<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"></nav>--->
+    
+    <main role="main" class="container-fluid">
+        
+        <div class="row justify-content-center">
+            
+            <!---App--->
+            <div id="app" class="col-sm-6">
+                <div class="row">
+                    
+                    <div class="col-sm-12">
+                        <h3 class="text-center">PASTE-FOR-YOU</h3>
+                    </div>
+                    
+                    <!---Controls--->
+                    <div id="controls" class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea class="form-control input" id="memo"></textarea>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <input class="form-control input" id="title" type="text" placeholder="Title">
+                            </div>
+
+                            <div class="col-sm-12">
+                                <input class="form-control input" id="email" type="email" placeholder="Email">
+                            </div>
+
+                            <button class="btn btn-primary form-control" id="btnSubmit">Submit</button>
+
+                            <div id="info" class="col-sm-12">
+                                <h6>Successfully uploaded and emailed. Your Pastebin link:</h6>
+                                <input class="form-control" id="url" type="text" value="https://pastebin.com/" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!---Desc--->
+                    <div id="desc" class="offset-sm-1 col-sm-5">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>Description</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <p>Paste-for-you allows you to create on the go memo's for yourself without you having to log into into any of your personal accounts on public or unsecure networks.</p>
+                                <p>Paste-for-you will create a unlisted Pastebin post for you using Pastebin's api, and then email the link of that post to your personal email address.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </main>
+
+</body>
+</html>
