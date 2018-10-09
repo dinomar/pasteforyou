@@ -4,6 +4,10 @@
 
 const clickHandler = () => {
     
+    //show loading cog
+    const cog = "<i class=\"fas fa-cog\"></i> Loading...";
+    $("#btnSubmit").html(cog);
+    
     let title = $("#title").val();
     let memo = $("#memo").val();
     let email = $("#email").val();
@@ -25,6 +29,9 @@ const clickHandler = () => {
             console.log(data);
             return null;
         }
+        
+        //hide loading cog
+        $("#btnSubmit").html("Submit");
         
         $("#title").val("");
         $("#memo").val("");
