@@ -14,8 +14,8 @@ Awesome Font 5.3.1
 Node.js
 
 Dependencies:
-..* body-parser 1.18.3
-..* dotenv 6.0.0
-..* express 4.16.3
-..* nodemailer 4.6.8
-..* request 2.88.0
+* body-parser 1.18.3
+* dotenv 6.0.0
+* express 4.16.3
+* nodemailer 4.6.8
+* request 2.88.0
